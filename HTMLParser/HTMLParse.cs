@@ -121,11 +121,11 @@ namespace HTMLParser
 
             Done++;
 
-            UpdateProgressNotify?.Invoke(Done + "/" + ListCount);
+            //UpdateProgressNotify?.Invoke(Done + "/" + ListCount);
 
             if (Done == ListCount)
             {
-                ParseDoneNotify?.Invoke(Items);
+                //ParseDoneNotify?.Invoke(Items);
             }
         }
 
