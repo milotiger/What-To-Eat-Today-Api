@@ -1,0 +1,54 @@
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\PullFromFoody.exe.config
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.Form1.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.Properties.Resources.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\obj\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Practice\PullFromWebSite\PullFromFoody\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\PullFromFoody.exe.config
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.Form1.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.Properties.Resources.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\obj\Debug\PullFromFoody.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\GetHTML.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\HTMLParser.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\Models.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\GetHTML.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\HTMLParser.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\PullFromFoody\bin\Debug\Models.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\PullFromFoody.exe.config
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\PullFromFoody.exe
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\PullFromFoody.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\GetHTML.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\HTMLParser.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\Models.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\GetHTML.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\HTMLParser.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\Models.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.Form1.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.Properties.Resources.resources
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\PullFromFoody\obj\Debug\PullFromFoody.csproj.GenerateResource.Cache
