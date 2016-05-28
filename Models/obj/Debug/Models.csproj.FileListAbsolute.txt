@@ -3,3 +3,8 @@ C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\Models\obj\Debug\Models.dll
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\Models\obj\Debug\Models.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\Models\bin\Debug\Models.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\Models\bin\Debug\Models.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\Models\obj\Debug\Models.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\Models\obj\Debug\Models.pdb

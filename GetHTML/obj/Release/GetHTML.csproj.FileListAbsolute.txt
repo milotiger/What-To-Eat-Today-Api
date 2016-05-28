@@ -3,3 +3,8 @@ C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\GetHTML\obj\Release\GetHTML.csprojResolveAssemblyReference.cache
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\GetHTML\obj\Release\GetHTML.dll
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\GetHTML\obj\Release\GetHTML.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\GetHTML\bin\Release\GetHTML.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\GetHTML\bin\Release\GetHTML.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\GetHTML\obj\Release\GetHTML.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\GetHTML\obj\Release\GetHTML.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\GetHTML\obj\Release\GetHTML.pdb

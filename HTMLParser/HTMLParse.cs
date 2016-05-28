@@ -6,7 +6,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 using Models;
+using Newtonsoft.Json;
 using GetHTML;
+using Newtonsoft.Json.Linq;
+using System.Web.Script.Serialization;
 
 namespace HTMLParser
 {
@@ -41,7 +44,7 @@ namespace HTMLParser
 
             for (int i = 0; i < Math.Min(RandomCount, ListCount); i++)
             {
-                int Random = new Random(DateTime.Now.Millisecond).Next(0, Index.Count);
+                int Random = new Random(DateTime.Now.Second).Next(0, Index.Count);
                 Items.Add(ParseNode(doc.DocumentNode.SelectNodes("//div[@class='row-item filter-result-item']")[Index[Random]]));
                 Index.RemoveAt(Random);
             }
@@ -129,6 +132,70 @@ namespace HTMLParser
             }
         }
 
+        public static FoodyItemInfo LoadFullSizePic(FoodyItemInfo Item)
+        {
+            Item.DetailUrl = Item.DetailUrl.Replace("http://www.foody.vnhttp://www.foody.vn/", "http://www.foody.vn/");
+            String HTML = GetHTML.GetHTML.URLtoHTMLFoody(Item.DetailUrl + "/album-anh");
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml(HTML);
+
+            var MainNodes = doc.DocumentNode.SelectNodes("//div[@class='micro-home-album-img']");
+            if (MainNodes == null)
+                return Item;
+
+            foreach (HtmlNode Node in MainNodes)
+            {
+                Item.FullSizePics.Add(Node.SelectSingleNode("div/a").GetAttributeValue("href", "null"));
+            }
+
+            return Item;
+        }
+
+        public static FoodyItemInfo LoadMenuItem(FoodyItemInfo Item)
+        {
+            Item.DetailUrl = Item.DetailUrl.Replace("http://www.foody.vnhttp://www.foody.vn/", "http://www.foody.vn/");
+            String HTML = GetHTML.GetHTML.URLtoHTMLFoody(Item.DetailUrl + "/thuc-don");
+
+            int Start = HTML.IndexOf("window.intData = ");
+            int Stop = HTML.IndexOf(";", Start);
+
+            String JsonItem = HTML.Substring(Start + 17, Stop - Start - 17);
+
+            //JToken Token = JObject.Parse(JsonItem);
+            //var SetArray = Token["MenuItems"].ToArray();
+            //for (int i = 0; i < SetArray.Length; i++)
+            //{
+            //    String Name = (String)SetArray[i]["Name"];
+            //    List<FoodyMenuItem> Dishes = new List<FoodyMenuItem>();
+            //    var DishArray = SetArray[i]["Dishes"].ToArray();
+            //    for (int j = 0; j < DishArray.Length; j++)
+            //    {
+            //        string ImageUrl = (string)DishArray[j]["ImageUrl"];
+            //        string DishName = (string)DishArray[j]["Name"];
+            //        string Price = (string)DishArray[j]["Price"];
+            //        Dishes.Add(new FoodyMenuItem(ImageUrl, DishName, Price));
+            //    }
+            //    Item.MenuSets.Add(new FoodyMenuSet(Name, Dishes));
+            //}
+            dynamic jsonDe = JsonConvert.DeserializeObject(JsonItem);
+
+            foreach (dynamic Set in jsonDe.MenuItems)
+            {
+                String Name = Set.Name;
+                List<FoodyMenuItem> Dishes = new List<FoodyMenuItem>();
+                foreach (dynamic dish in Set.Dishes)
+                {
+                    String DishName = dish.Name;
+                    String ImageUrl = dish.ImageUrl;
+                    String Price = dish.Price;
+                    Dishes.Add(new FoodyMenuItem(ImageUrl, Price, DishName));
+                }
+                Item.MenuSets.Add(new FoodyMenuSet(Name, Dishes));
+            }
+
+            return Item;
+        }
+
         private static FoodyItemInfo ParseNode(HtmlNode selectNode)
         {
             String Avatar = selectNode.SelectSingleNode(@"div[1]/a/img").GetAttributeValue("src", "");
@@ -151,6 +218,7 @@ namespace HTMLParser
 
             FoodyItemInfo Item =  new FoodyItemInfo(Url, Headline, Avatar, Addresslv1, AddressLv2, AddressLv3, Rating, Comments, Pic, Tags);
             LoadMoreDetail(Item);
+            //LoadFullSizePic(Item);
 
             return Item;
         }

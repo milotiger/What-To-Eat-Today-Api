@@ -20,6 +20,12 @@ namespace WhatToEatTodayApi
                 defaults: new { id = RouteParameter.Optional }
             );
 
+            config.Routes.MapHttpRoute(
+                name: "PostApi",
+                routeTemplate: "api/{controller}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+
             config.Formatters.Remove(config.Formatters.XmlFormatter);
             GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.Formatting =
                                                                         Newtonsoft.Json.Formatting.Indented;

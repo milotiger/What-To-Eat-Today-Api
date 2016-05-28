@@ -11,15 +11,35 @@ using GetHTML;
 
 namespace WhatToEatTodayApi.Controllers
 {
-    public class ResultController: ApiController
+    public class SearchController: ApiController
     {
-        public List<FoodyItemInfo> getResult(String q, int count)
+        public List<FoodyItemInfo> getSearch(String q, int count)
         {
-            String URL = Global.BaseURL + q;
+            String URL = Global.BaseURL + q + "&page=5";
 
             return HTMLParse.ParseFromFoody(GetHTML.GetHTML.URLtoHTMLFoody(URL), count);
         }
 
+       
+
+    }
+
+    public class FullSizeAlbumController : ApiController
+    {
+        [HttpPost]
+        public FoodyItemInfo getFullSizeAlbum([FromBody] FoodyItemInfo Item)
+        {
+            return HTMLParse.LoadFullSizePic(Item);
+        }
+    }
+
+    public class MenuItemController : ApiController
+    {
+        [HttpPost]
+        public FoodyItemInfo getMenuItem([FromBody] FoodyItemInfo Item)
+        {
+            return HTMLParse.LoadMenuItem(Item);
+        }
     }
     
 }

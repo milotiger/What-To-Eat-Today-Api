@@ -24,6 +24,11 @@ namespace TestForm
         private void button1_Click(object sender, EventArgs e)
         {
             HTML = GetHTML.GetHTML.URLtoHTMLFoody(txtAddr.Text);
+            rtbValue.AppendText(txtXPath.Text + "\r\n");
+            rtbValue.AppendText(HTML + "\r\n");
+            rtbValue.AppendText("--------" + "\r\n");
+            rtbValue.SelectionStart = rtbValue.Text.Length;
+            rtbValue.ScrollToCaret();
         }
 
         private void button2_Click(object sender, EventArgs e)

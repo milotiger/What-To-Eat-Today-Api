@@ -34,3 +34,5 @@ C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\TestForm\obj\Debug\TestForm.exe
 C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\TestForm\obj\Debug\TestForm.pdb
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\TestForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Dropbox\Tài Liệu\Năm III\HKII\Di Động\Đồ Án Môn Học\What-To-Eat-Today-Api\TestForm\bin\Debug\Newtonsoft.Json.xml

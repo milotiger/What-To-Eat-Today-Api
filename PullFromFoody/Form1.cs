@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using Models;
 using HTMLParser;
 using GetHTML;
-
 namespace PullFromFoody
 {
     public partial class Form1 : Form
@@ -49,8 +48,9 @@ namespace PullFromFoody
             //Thread Parse = new Thread(() => HTMLParse.ParseFromFoody(GetHTML.GetHTML.URLtoHTML2(URL)));
             //Parse.Start();
 
-            GetHTML.GetHTML.FoodyCrawer(URL, 1);
+            //GetHTML.GetHTML.FoodyCrawer(URL, 1);
             //Writer.DatatoJson(HTMLParse.ParseFromFoody(GetHTML.GetHTML.FoodyCrawer(URL, 1)), "E:\\" + txtURL.Text + ".json");
+            HTMLParse.ParseFromFoody(GetHTML.GetHTML.URLtoHTMLFoody(URL));
 
             MessageBox.Show("Main Done");
         }

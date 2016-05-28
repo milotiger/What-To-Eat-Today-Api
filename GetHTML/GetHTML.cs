@@ -44,6 +44,7 @@ namespace GetHTML
 
         public static String URLtoHTMLFoody(string URL)
         {
+            //URL += "&page=2";
             HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(URL);
             myRequest.Method = "GET";
             myRequest.UserAgent = "FireFox";

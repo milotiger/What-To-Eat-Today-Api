@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,7 +22,8 @@ namespace Models
         public List<String> OpenTime;
         public List<String> Price;
         public List<String> MorePic;
-        public List<FoodyMenuItem> MenuItems;
+        public List<String> FullSizePics;
+        public List<FoodyMenuSet> MenuSets;
         public List<CommentDetail> CommentDetails;
         public String Phone;
 
@@ -42,16 +44,36 @@ namespace Models
             OpenTime = new List<string>();
             Price = new List<string>();
             MorePic = new List<string>();
-            MenuItems = new List<FoodyMenuItem>();
+            MenuSets = new List<FoodyMenuSet>();
             CommentDetails = new List<CommentDetail>();
+            FullSizePics = new List<string>();
+        }
+    }
+
+    public class FoodyMenuSet
+    {
+        public String Name;
+        public List<FoodyMenuItem> Dishes;
+
+        public FoodyMenuSet(string setName, List<FoodyMenuItem> items)
+        {
+            Name = setName;
+            Dishes = items;
         }
     }
 
     public class FoodyMenuItem
     {
-        public String Avatar;
+        public String ImageUrl;
         public String Price;
-        public String DetailLink;
+        public String Name;
+
+        public FoodyMenuItem(string avatar, string price, string name)
+        {
+            ImageUrl = avatar;
+            Price = price;
+            Name = name;
+        }
     }
 
     public class CommentDetail
@@ -90,4 +112,5 @@ namespace Models
             UserName = System.Net.WebUtility.HtmlDecode(UserName);
         }
     }
+
 }
